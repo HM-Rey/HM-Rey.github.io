@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>點!</title>
+    <script src="need_use.js"></script>
+    <link href ="style.css" rel="stylesheet">
+
+</head>
+<body class="body">
+    <div class="top">
+        <p class="ymoney">money:</p>
+        <output id="money">0</output>
+    </div>
+    <div class="mid">
+        <button class="btsy1 pb" onclick="buyoldmoney1()">點我購買手動加1 / -100元</button>
+
+        <button class="btsy1 pb" onclick="buynewmoney1()">點我購買自動加1 / -20元</button>
+        <button class="btsy1 pb" onclick="buynewmoney10()">點我購買自動加10 / -200元</button>
+    </div>
+    <div class="ed">
+        <button class="btsy2 pvb" onclick="get_money()">點它! 一次加 <output id="getting_money">1</output></button>
+
+    </div>
+</body>
+</html>
