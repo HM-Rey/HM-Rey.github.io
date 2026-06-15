@@ -12,4 +12,4 @@
   - Zzz...
 
 ### languages
-[日本語]()｜English
+[日本語](README_jp.md)｜English
