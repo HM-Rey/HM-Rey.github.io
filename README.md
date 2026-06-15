@@ -10,3 +10,6 @@
 
 ### others:
   - Zzz...
+
+### languages
+[日本語]()｜English
